@@ -1,3 +1,15 @@
-p {
-  color: brown;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+}
+
+nav {
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 1rem 0 0;
 }
