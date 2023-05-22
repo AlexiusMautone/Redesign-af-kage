@@ -9,7 +9,10 @@ body {
 }
 
 nav {
-  flex-direction: row;
-  justify-content: flex-end;
-  margin: 1rem 0 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 2%;
 }
