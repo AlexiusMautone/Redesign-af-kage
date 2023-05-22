@@ -1,0 +1,7 @@
+/* grid-container */
+.col2 {
+  border-style: solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 1080px;
+}
