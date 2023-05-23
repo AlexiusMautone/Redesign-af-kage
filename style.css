@@ -17,3 +17,44 @@ li {
   display: inline;
   margin: 2%;
 }
+
+.billede-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.billede-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.billede-item:first-child {
+  grid-column: 1 / span 2;
+}
+
+.cafe-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+}
+
+.cafe-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cafe-item h2 {
+  order: -1;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
