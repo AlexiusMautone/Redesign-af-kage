@@ -19,9 +19,66 @@ li {
   margin: 2%;
 }
 
+nav {
+  background-color: #dcede9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+  height: 130px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #445451;
+}
+a:visited {
+  text-decoration: none;
+  color: #445451;
+}
+a:hover {
+  text-decoration: none;
+  color: #80beb1;
+}
+a:active {
+  text-decoration: none;
+  color: #80beb1;
+}
+
+.logo {
+  margin-bottom: -70px; /* Flyt logo ned fra nav bar */
+  text-align: center;
+}
+
+.logo img {
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.nav-items li {
+  margin-right: 40px;
+}
+
+.nav-items li:last-child {
+  margin-right: 0;
+}
+
 .video-container {
   margin-left: 5%;
   margin-right: 5%;
+  padding-top: 10%;
 }
 
 .billede-container {
@@ -29,6 +86,22 @@ li {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
+}
+
+.billede-item {
+  position: relative;
+  display: inline-block;
+}
+
+.billede-tekst {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Sophillia;
+  color: white;
+  -webkit-text-stroke: 0.5px #000;
+  font-size: 1.75rem;
 }
 
 .billede-item:first-child {
@@ -61,20 +134,20 @@ img {
 
 @media (min-width: 450px) and (max-width: 550px) {
   .cafe-item h2 {
-  font-size: 0.75rem;
-}
+    font-size: 0.75rem;
+  }
 }
 
 @media (min-width: 550px) and (max-width: 1000px) {
   .cafe-item h2 {
-  font-size: 1.25rem;
-}
+    font-size: 1.25rem;
+  }
 }
 
 @media (min-width: 1000px) {
   .cafe-item h2 {
-  padding: 3%;
-}
+    padding: 3%;
+  }
 }
 
 .cafe-item p a {
@@ -84,23 +157,23 @@ img {
 
 @media (min-width: 450px) and (max-width: 550px) {
   .cafe-item p a {
-  font-size: 0.5rem;
-}
+    font-size: 0.5rem;
+  }
 }
 
 @media (min-width: 550px) and (max-width: 1000px) {
   .cafe-item p a {
-  font-size: 1rem;
-}
+    font-size: 1rem;
+  }
 }
 
 .cafe-item p:hover a {
   cursor: pointer;
-  color: #AF77BD;
+  color: #af77bd;
 }
 
 #index-baggrund {
-  background-color: #F2E5D9;
+  background-color: #f2e5d9;
 }
 
 .h1-index {
@@ -112,26 +185,24 @@ img {
 
 @media (min-width: 450px) and (max-width: 750px) {
   .h1-index {
-  font-size: 1rem;
-  padding: 2.5%;
-}
+    font-size: 1rem;
+    padding: 2.5%;
+  }
 }
 
 @media (min-width: 750px) and (max-width: 1350px) {
   .h1-index {
-  font-size: 2rem;
-  padding: 2.5%;
-}
+    font-size: 2rem;
+    padding: 2.5%;
+  }
 }
 
 .h2-index {
-  font-family: Mirador;
+  font-family: Sophillia;
   font-size: 1.75rem;
 }
 
 .p-index {
-  font-family: Mirador;
+  font-family: Sophillia;
   font-size: 25px;
 }
-
-
