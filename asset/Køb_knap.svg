@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125.81 38.59">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4e5f5c;
+      }
+
+      .cls-2 {
+        fill: #fffdf5;
+        font-family: Poppins-Medium, Poppins;
+        font-size: 17.5px;
+        font-weight: 500;
+      }
+
+      .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-1" width="125.81" height="38.59" rx="6.13" ry="6.13"/>
+    <g id="husk_vi_tager_ikke_imod_bestillinger_via._opkald" data-name="husk vi tager ikke imod bestillinger via. opkald" class="cls-3">
+      <text class="cls-2" transform="translate(44.99 25.66)"><tspan x="0" y="0">KØB</tspan></text>
+    </g>
+  </g>
+</svg>

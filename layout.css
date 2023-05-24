@@ -1,12 +1,41 @@
 /* grid-container */
 .col2 {
-  border-style: solid;
   display: grid;
   grid-template-columns: 4fr 8fr;
 }
 
 .col3 {
-  border-style: solid;
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.grid-webshop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Adjust the width as needed */
+  grid-gap: 10px; /* Adjust the gap between images as needed */
+  justify-items: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+}
+
+.grid li {
+  list-style: none;
+}
+
+.grid img {
+  width: 100%; /* Make the image occupy the entire container */
+  height: auto; /* Maintain the image's aspect ratio */
+  object-fit: cover; /* Crop or stretch the image to fit the container */
+}
+
+.undersider {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.filtre {
+  display: flex;
+  justify-content: center;
 }
