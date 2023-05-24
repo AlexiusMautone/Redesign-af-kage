@@ -4,16 +4,10 @@
   box-sizing: border-box;
 }
 
-
-
-
-
 body {
   margin: 10px;
-<<<<<<< HEAD
-  background-color: rgb(255, 255, 255);
-=======
->>>>>>> da426338cb543f11c059a7be1033d10d8b389e8d
+  max-width: 1080px;
+  background-color: #fffdf4;
 }
 
 nav {
@@ -24,4 +18,3 @@ li {
   display: inline;
   margin: 2%;
 }
-
