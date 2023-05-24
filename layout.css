@@ -1,0 +1,12 @@
+/* grid-container */
+.col2 {
+  border-style: solid;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+
+.col3 {
+  border-style: solid;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
