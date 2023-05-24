@@ -21,17 +21,16 @@ li {
   margin: 2%;
 }
 
+.video-container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .billede-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
-}
-
-.billede-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .billede-item:first-child {
@@ -41,7 +40,7 @@ li {
 .cafe-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 50px;
+  padding: 15%;
 }
 
 .cafe-item {
@@ -52,12 +51,89 @@ li {
   text-align: center;
 }
 
-.cafe-item h2 {
-  order: -1;
-}
-
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+.cafe-item h2 {
+  order: -1;
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .cafe-item h2 {
+  font-size: 0.75rem;
+}
+}
+
+@media (min-width: 550px) and (max-width: 1000px) {
+  .cafe-item h2 {
+  font-size: 1.25rem;
+}
+}
+
+@media (min-width: 1000px) {
+  .cafe-item h2 {
+  padding: 3%;
+}
+}
+
+.cafe-item p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .cafe-item p a {
+  font-size: 0.5rem;
+}
+}
+
+@media (min-width: 550px) and (max-width: 1000px) {
+  .cafe-item p a {
+  font-size: 1rem;
+}
+}
+
+.cafe-item p:hover a {
+  cursor: pointer;
+  color: #AF77BD;
+}
+
+#index-baggrund {
+  background-color: #F2E5D9;
+}
+
+.h1-index {
+  font-family: Mirador;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2.5%;
+}
+
+@media (min-width: 450px) and (max-width: 750px) {
+  .h1-index {
+  font-size: 1rem;
+  padding: 2.5%;
+}
+}
+
+@media (min-width: 750px) and (max-width: 1350px) {
+  .h1-index {
+  font-size: 2rem;
+  padding: 2.5%;
+}
+}
+
+.h2-index {
+  font-family: Mirador;
+  font-size: 1.75rem;
+}
+
+.p-index {
+  font-family: Mirador;
+  font-size: 25px;
+}
+
+
