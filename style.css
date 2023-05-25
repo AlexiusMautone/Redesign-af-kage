@@ -5,16 +5,96 @@
 }
 
 body {
-  margin: 10px;
-  max-width: 1080px;
   background-color: #fffdf4;
-}
-
-nav {
-  text-align: center;
 }
 
 li {
   display: inline;
-  margin: 2%;
+}
+
+p {
+  font-family: "poppins" m sans-serif;
+}
+
+/****** NAV BAR ********/
+
+/* Style the navigation */
+
+nav {
+  background-color: #dcede9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+  height: 130px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #445451;
+}
+a:visited {
+  text-decoration: none;
+  color: #445451;
+}
+a:hover {
+  text-decoration: none;
+  color: #80beb1;
+}
+a:active {
+  text-decoration: none;
+  color: #80beb1;
+}
+
+.logo {
+  margin-bottom: -70px; /* Flyt logo ned fra nav bar */
+  text-align: center;
+}
+
+.logo img {
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.nav-items li {
+  margin-right: 40px;
+}
+
+.nav-items li:last-child {
+  margin-right: 0;
+}
+
+.undersider a {
+  display: grid;
+  place-items: center;
+}
+
+.undersider > a:hover {
+  color: #f4fffd;
+  font-size: 150%;
+  visibility: visible;
+  font-family: poppins, sans-serif;
+  opacity: 0.8;
+}
+
+.img__description {
+  position: absolute;
+  visibility: hidden;
+}
+
+.undersider a:hover .img__description {
+  visibility: visible;
+  opacity: 1;
 }
