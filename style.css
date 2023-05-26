@@ -12,10 +12,15 @@ li {
   display: inline;
 }
 
-p {
-  font-family: "poppins" m sans-serif;
+p,
+h3 {
+  font-family: "poppins", sans-serif;
 }
 
+.productbox h3 {
+  font-size: 90%;
+  height: 60px;
+}
 /****** NAV BAR ********/
 
 /* Style the navigation */
@@ -285,4 +290,9 @@ img {
 .p-index {
   font-family: Sophillia;
   font-size: 25px;
+}
+
+.productbox p,
+.productbox h3 {
+  margin-top: 5px;
 }
