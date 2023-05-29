@@ -64,9 +64,9 @@ a:active {
   margin-left: 50px;
 }
 
-/* .nav-items li {
+.nav-items li {
   margin-right: 40px;
-} */
+}
 
 .nav-items li:last-child {
   margin-right: 0;
@@ -185,7 +185,7 @@ h2 {
 
 @media (min-width: 450px) and (max-width: 550px) {
   .cafe-item h2 {
-    font-size: var(--accent-font-size-sm);
+    font-size: var(--quinary-font-size-sm);
     font-weight: var(--primary-font-weight);
     padding: 3%;
   }
@@ -285,11 +285,11 @@ h2 {
   --primary-font-style: normal;
   --secondary-font-style: bold;
   --primary-font-size-sm: 2.5rem;
-  --secondary-font-size-sm: 1.75rem;
-  --tertiary-font-size-sm: 1.5rem;
-  --quaternary-font-size-sm: 1.25rem;
-  --quinary-font-size-sm: 1rem;
-  --accent-font-size-sm: 0.75rem;
+  --secondary-font-size-sm: 1.5rem;
+  --tertiary-font-size-sm: 1.25rem;
+  --quaternary-font-size-sm: 1rem;
+  --quinary-font-size-sm: 0.75rem;
+  --accent-font-size-sm: 0.5rem;
   --primary-font-weight: 500;
   --primay-webkit-text-stroke: 1px #000;
   --secondary-webkit-text-stroke: 0.5px #000;
